@@ -45,12 +45,25 @@ The AI listens to feedback and re-generates or adjusts any part of the plan on r
 - Warm, knowledgeable, helpful — like a trusted travel-savvy friend
 - Visual and exploratory — destinations feel vivid and exciting
 - Clean, accessible, optimized for ease of use
+- **Primary language**: Bahasa Indonesia (bilingual-capable)
+
+## App UI Structure (Shipped MVP)
+Three-tab navigation — mobile-first (bottom nav), desktop (left sidebar):
+- **Chat tab**: Conversational input; interest chips (Budaya, Kuliner, Alam, Pantai, Belanja, Relaksasi); AI-generated itinerary cards inline
+- **Timeline tab**: Vertical day-by-day schedule with color-coded activity icons, time slots, and budget indicators
+- **Peta tab**: Interactive Leaflet.js map; color-coded pins (indigo = hotels, amber = food, teal = attractions); click-to-popup labels
 
 ## MVP Scope
-- **Input**: destination, budget range, travel dates, personal interests
+- **Status**: ✅ Shipped
+- **Input**: destination, budget range, travel dates, personal interests (via conversational chat)
 - **Output**: full itinerary (hotels, attractions, daily activities) rendered as timeline + interactive map
-- **Feedback loop**: user requests adjustments; AI regenerates
+- **Feedback loop**: user requests adjustments; AI regenerates via agentic scaffold
 - **Out of scope (MVP)**: flight booking, direct hotel/activity booking, payment processing
+
+## Roadmap (Pre-staged)
+1. **Save & revisit itineraries** — users can bookmark and return to generated plans
+2. **Share travel plans** — shareable read-only link for friends and family
+3. **Real-time weather forecasts** — per-day weather surfaced inline on the timeline
 
 ## Strategic Principles
 - **AI-first value**: the core differentiator is the quality and depth of AI-generated, personalized recommendations
