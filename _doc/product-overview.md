@@ -1,7 +1,7 @@
-# AI Travel Planner — Product Overview
+# WanderAI — Product Overview
 
 ## Product Identity
-- **Name**: AI Travel Planner (Perencana Perjalanan AI)
+- **Name**: WanderAI
 - **Tagline**: Agen perjalanan AI pribadi — rencanakan perjalanan impian dalam hitungan menit
 - **Category**: Consumer Travel / AI Planning App
 - **Positioning**: Personal AI travel agent that creates comprehensive, personalized travel itineraries based on user-stated destination, budget, and interests
