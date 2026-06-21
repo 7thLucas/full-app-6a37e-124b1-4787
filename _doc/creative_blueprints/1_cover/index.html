@@ -1,0 +1,51 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-left { width: 54%; }
+  .mode-landscape .sl-right { width: 46%; }
+  .mode-portrait .sl-left { width: 100%; flex: 1; }
+  .mode-portrait .sl-right { width: 100%; height: 38%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: editorial content -->
+    <div class="sl-left flex flex-col justify-between p-12">
+      <div>
+        <div class="flex items-center gap-3 mb-8">
+          <div class="w-10 h-1 rounded-full bg-indigo-500"></div>
+          <span class="text-xs font-bold tracking-widest uppercase text-indigo-500">AI Travel Planner</span>
+        </div>
+        <h1 class="text-5xl font-black text-slate-900 leading-tight">
+          Your Personal<br>
+          <span class="text-indigo-600">AI Travel</span><br>
+          Agent
+        </h1>
+        <p class="text-lg text-slate-500 mt-6 leading-relaxed max-w-xs">
+          Describe your destination, budget, and interests. Get a complete, personalized itinerary — hotels, attractions, and daily activities — in minutes.
+        </p>
+      </div>
+
+      <div>
+        <div class="flex flex-wrap gap-2 mb-8">
+          <span class="px-3 py-1 bg-indigo-50 text-indigo-700 text-xs font-semibold rounded-full">AI Itinerary</span>
+          <span class="px-3 py-1 bg-teal-50 text-teal-700 text-xs font-semibold rounded-full">Interactive Map</span>
+          <span class="px-3 py-1 bg-amber-50 text-amber-700 text-xs font-semibold rounded-full">Timeline View</span>
+          <span class="px-3 py-1 bg-rose-50 text-rose-700 text-xs font-semibold rounded-full">Adaptive Planning</span>
+        </div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: travel visual -->
+    <div class="sl-right relative overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=beautiful%20travel%20destination%20aerial%20view%20with%20vibrant%20landmarks%2C%20world%20map%20compass%20overlay%2C%20editorial%20travel%20photography%2C%20warm%20golden%20light%2C%20cinematic"
+        class="w-full h-full object-cover"
+        alt="AI Travel Planner visual"
+      />
+      <div class="absolute inset-0 bg-gradient-to-r from-white via-white/10 to-transparent pointer-events-none"></div>
+    </div>
+
+  </div>
+</section>
